@@ -1,0 +1,80 @@
+$col-red: #D23166;
+$col-bl: #0F0101;
+
+.container {
+    width: 1600px;
+    height: 862px;
+    flex-shrink: 0;
+}
+.container div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container div div {
+    margin-left: 254px;
+    margin-top: 196px;
+    display: flex;
+    flex-direction: column;
+}
+
+.miniTitle {
+    color: $col-bl;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px;
+}
+
+.title {
+    margin-top: 6px;
+    color: $col-bl;
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.5%;
+    span {
+        opacity: 0.9;
+        color: #D23166;
+        font-size: 57.33px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120.5%;
+    }
+}
+
+.par {
+    margin-top: 35px;
+    opacity: .6;
+    color: $col-bl;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+
+.btn {
+    margin-right: 230px;
+    width: 165px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: $col-red;
+    border: none;
+    color: #fafafa;
+    margin-top: 63px;
+}
+
+.img2 {
+    position: absolute;
+    top: 126px;
+    left: 889px;
+}
+.img3 {
+    position: absolute;
+    left: 740px;
+    top: 251px;
+    transform: rotate(4.793deg);
+}
+

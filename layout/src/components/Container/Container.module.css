@@ -1,0 +1,189 @@
+.Container {
+  width: auto;
+  height: 2100px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.cont {
+  width: 1000px;
+  height: 1506px;
+  margin-left: 250px;
+}
+
+h1 {
+  color: #150101;
+  font-family: Hind Madurai;
+  font-size: 44.2px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  height: 61px;
+  margin-top: 61px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  width: 800px;
+  height: 21px;
+  margin-left: 70px;
+  margin-top: 40px;
+  list-style: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.two {
+  height: 300px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.img1 {
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.tD {
+  width: 454px;
+  height: 234px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.pD {
+  font-weight: bolder;
+}
+
+button {
+  background: #D64374;
+  width: 165px;
+  height: 49px;
+  color: white;
+  border-radius: 5px;
+}
+
+.three {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.img2 {
+  width: 400px;
+  height: 400px;
+}
+
+.tD1 {
+  width: 474px;
+  height: 234px;
+  margin-top: 55px;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+
+.four {
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img3 {
+  width: 400px;
+  height: 400px;
+}
+
+.tD2 {
+  width: 464px;
+  height: 234px;
+  margin-top: 126px;
+}
+
+span {
+  font-weight: lighter;
+  text-decoration: line-through;
+}
+
+.cont1 {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 250px;
+}
+
+.subD1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 350px;
+  height: 53px;
+}
+
+.img4 {
+  width: 400px;
+  height: 400px;
+  margin-top: -100px;
+}
+
+.sbD1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgS1 {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #D64374;
+  border-radius: 57px;
+}
+
+.sbD1 div {
+  width: 189px;
+  height: 10px;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+
+.sbD1 div p {
+  width: 60px;
+  height: 15px;
+  margin-top: -8px;
+  opacity: 0.7px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sbD3 {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.imgS2,
+.imgS3 {
+  width: 35px;
+  height: 35px;
+  margin-top: 12px;
+}
+
+svg {
+  margin-top: 23px;
+}/*# sourceMappingURL=Container.module.css.map */

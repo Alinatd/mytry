@@ -1,0 +1,47 @@
+$col-red: #D23166;
+
+
+.Header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 245px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+        margin-left: 40px;
+        list-style: none;
+        color: #150101;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: .6;
+        &:nth-child(1) {
+            color: $col-red;
+            opacity: 1;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}
+
+.btn {
+    margin-right: 230px;
+    width: 165px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: $col-red;
+    border: none;
+    color: #fafafa;
+}
